@@ -1,0 +1,41 @@
+@ Cottage
+% You're standing outside a nice little cottage, to the east you see a road heading into the woods.
+! east
+* Woods
+# Staff
+# Candle
+# Rocking Chair
+
+@ Woods
+% You have entered the woods, you hear the wind whistling through the trees. You see a small village nestled in the trees above you. There is a craggy beach to the south. There is a cottage to the west.
+! south
+* Craggy Beach
+! west
+* Cottage
+! up
+* Tree Village
+
+@ Craggy Beach
+% You have stepped onto the craggy beach, you better watch your step as there are rocks everywhere. You see an ocean below you, and the woods lie to your north.
+! down
+* Ocean
+! north
+* Woods
+
+@ Tree Village
+% You climb the trees and step onto a wooden platform in the center of the village; it appears to be abandoned. The woods lie below you.
+! down
+* Woods
+# Ripped Clothes
+# Old Sword
+# Skull
+# Torn Photo
+# Skeleton
+# Apple
+# Pear
+# Peach
+
+@ Ocean
+% You stick your head under the water and see an ancient city under the ocean, too bad you didn't bring your scuba gear. The beach is above you.
+! up
+* Craggy Beach
